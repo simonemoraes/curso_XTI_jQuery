@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>       
+        <title>Aula 12</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" type="text/css" href="../css/estilo.css" media="all"/>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.12.0.min.js"></script>
+
+        <style>
+            .destaque{border:5px dashed black; 
+                      background: #ccc; 
+                      margin: 20px;
+                      text-align: justify;}
+            button:hover{background: black;color: #ccc;}
+            button{font-size: 30px; width: 350px; margin: 20px 0px 20px 0px;}
+            #id_lampAcesa{display: none;}
+            div_imagem{}
+        </style>
+    </head>
+
+    <body>
+        <div class="container">            
+            <div class="row">                
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <button type="button">Manipular DOM</button> 
+                </div> 
+            </div>
+            
+            <div class="row">                
+                <div id="div_imagem" class="col-xs-12 col-sm-12 col-md-6">
+                    <img id="id_lampApagada" src="../imagens/lampada-apagada.jpg" title="Lampada Apagada"/>               
+                    <img id="id_lampAcesa" src="../imagens/lampada-acesa.jpg" title="Lampada Acesa"/>
+                </div> 
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../js/jscript12.js"></script>        
+    </body>
+</html>

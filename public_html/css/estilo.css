@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#id_input{
+    padding:  2px;
+    margin-right: 1px;
+}
+#id_div_input{
+    padding:  1px;
+    margin-right: 1px;
+}
+
+#id_div_inputUm {
+    padding: 1px;
+    margin-left: 200px;
+}
+
+.formulario{
+    background: #d5d5d5;
+}
